@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background: #2C2C2C;
+}
+
+#cabecalho{
+  background: #9657A5;
+  width: 375px;
+  height: 66px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+h1{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+#caixa-principal{
+    background: #E5E5E5;
+    width: 375px;
+    padding: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo{
+    margin-bottom: 6px;
+    color: #777777;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+
+.select{
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-bottom: 23px;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    padding-left: 16px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#input{
+    width: 327px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #BBBBBB;
+    border-radius: 4px;
+    margin-bottom: 23px;
+    outline: none;
+    padding-left: 16px;
+    font-size: 16px;
+}
+
+#botão{
+    width: 327px;
+    height: 48px;
+    background: #bcc426;
+    border-radius: 25px;
+    display: block;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    margin-bottom: 23px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #F4F4F4;
+}
+
+#botão:active{
+    opacity: 0.6;
+}
+
+#caixa-interna{
+    border: 1px solid #9657A5;
+    border-radius: 4px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.caixa-menor{
+    text-align: center;
+}
+
+#seta{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.paragrafo-negrito{
+    font-weight: bold;
+    font-size: 20px;
+}
